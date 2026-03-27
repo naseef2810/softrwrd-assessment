@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-27T21:13:46 GMT+06:00" name="SauceDemo Test Suite" finished-at="2026-03-27T21:18:04 GMT+06:00" duration-ms="258342">
+    <groups>
+    </groups>
+    <test started-at="2026-03-27T21:13:46 GMT+06:00" name="All Tests" finished-at="2026-03-27T21:18:04 GMT+06:00" duration-ms="258342">
+      <class name="com.softwrdassessment.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:13:46 GMT+06:00" name="setUp" finished-at="2026-03-27T21:13:50 GMT+06:00" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupCheckout()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:13:50 GMT+06:00" name="setupCheckout" finished-at="2026-03-27T21:13:51 GMT+06:00" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCheckout -->
+        <test-method signature="testFullPurchaseFlow()[pri:1, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:13:51 GMT+06:00" name="testFullPurchaseFlow" description="Complete a full purchase with valid details and verify confirmation screen content" finished-at="2026-03-27T21:13:51 GMT+06:00" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullPurchaseFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:13:51 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:13:51 GMT+06:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:13:51 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:04 GMT+06:00" duration-ms="12723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupCheckout()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:04 GMT+06:00" name="setupCheckout" finished-at="2026-03-27T21:14:04 GMT+06:00" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCheckout -->
+        <test-method signature="testCheckoutBlockedMissingFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:04 GMT+06:00" name="testCheckoutBlockedMissingFields" description="Checkout blocked when required fields are missing" data-provider="missingFieldsData" finished-at="2026-03-27T21:14:04 GMT+06:00" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutBlockedMissingFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:04 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:04 GMT+06:00" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:04 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:16 GMT+06:00" duration-ms="12260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupCheckout()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:16 GMT+06:00" name="setupCheckout" finished-at="2026-03-27T21:14:17 GMT+06:00" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCheckout -->
+        <test-method signature="testCheckoutBlockedMissingFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:17 GMT+06:00" name="testCheckoutBlockedMissingFields" description="Checkout blocked when required fields are missing" data-provider="missingFieldsData" finished-at="2026-03-27T21:14:17 GMT+06:00" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutBlockedMissingFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:17 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:17 GMT+06:00" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:17 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:25 GMT+06:00" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupCheckout()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:25 GMT+06:00" name="setupCheckout" finished-at="2026-03-27T21:14:25 GMT+06:00" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCheckout -->
+        <test-method signature="testCheckoutBlockedMissingFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:25 GMT+06:00" name="testCheckoutBlockedMissingFields" description="Checkout blocked when required fields are missing" data-provider="missingFieldsData" finished-at="2026-03-27T21:14:25 GMT+06:00" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error: Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutBlockedMissingFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:25 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:25 GMT+06:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:25 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:29 GMT+06:00" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupCheckout()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:29 GMT+06:00" name="setupCheckout" finished-at="2026-03-27T21:14:29 GMT+06:00" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCheckout -->
+        <test-method signature="testOrderSummaryMath()[pri:3, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:29 GMT+06:00" name="testOrderSummaryMath" description="Verify order summary is mathematically correct" finished-at="2026-03-27T21:14:29 GMT+06:00" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderSummaryMath -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CheckoutTest@7004e3d]" started-at="2026-03-27T21:14:29 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:30 GMT+06:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwrdassessment.tests.CheckoutTest -->
+      <class name="com.softwrdassessment.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:52 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:55 GMT+06:00" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:55 GMT+06:00" name="setUpCartTest" finished-at="2026-03-27T21:17:55 GMT+06:00" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="testAddSingleItem()[pri:1, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:55 GMT+06:00" name="testAddSingleItem" description="Add a single item and verify cart badge updates" finished-at="2026-03-27T21:17:55 GMT+06:00" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:55 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:55 GMT+06:00" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:55 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:57 GMT+06:00" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:57 GMT+06:00" name="setUpCartTest" finished-at="2026-03-27T21:17:58 GMT+06:00" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="testAddMultipleItems()[pri:2, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:58 GMT+06:00" name="testAddMultipleItems" description="Add multiple items and verify all appear in cart" finished-at="2026-03-27T21:17:58 GMT+06:00" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:58 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:58 GMT+06:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:17:58 GMT+06:00" name="setUp" finished-at="2026-03-27T21:18:00 GMT+06:00" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:00 GMT+06:00" name="setUpCartTest" finished-at="2026-03-27T21:18:00 GMT+06:00" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="testRemoveItem()[pri:3, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:00 GMT+06:00" name="testRemoveItem" description="Remove an item from the cart and verify cart state" finished-at="2026-03-27T21:18:01 GMT+06:00" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:01 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:18:01 GMT+06:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:01 GMT+06:00" name="setUp" finished-at="2026-03-27T21:18:03 GMT+06:00" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCartTest()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:03 GMT+06:00" name="setUpCartTest" finished-at="2026-03-27T21:18:03 GMT+06:00" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCartTest -->
+        <test-method signature="testCartPersistence()[pri:4, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:03 GMT+06:00" name="testCartPersistence" description="Cart persists across page navigation" finished-at="2026-03-27T21:18:04 GMT+06:00" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPersistence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CartTest@30cecdca]" started-at="2026-03-27T21:18:04 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:18:04 GMT+06:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwrdassessment.tests.CartTest -->
+      <class name="com.softwrdassessment.tests.AuthTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:15:41 GMT+06:00" name="setUp" finished-at="2026-03-27T21:16:06 GMT+06:00" duration-ms="24405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:06 GMT+06:00" name="testSuccessfulLogin" description="Successful login with valid credentials" finished-at="2026-03-27T21:16:06 GMT+06:00" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:06 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:16:06 GMT+06:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:06 GMT+06:00" name="setUp" finished-at="2026-03-27T21:16:19 GMT+06:00" duration-ms="13211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:19 GMT+06:00" name="testInvalidLogin" description="Login failure with invalid credentials" data-provider="invalidLoginData" finished-at="2026-03-27T21:16:19 GMT+06:00" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:19 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:16:19 GMT+06:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:19 GMT+06:00" name="setUp" finished-at="2026-03-27T21:16:30 GMT+06:00" duration-ms="10655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:30 GMT+06:00" name="testInvalidLogin" description="Login failure with invalid credentials" data-provider="invalidLoginData" finished-at="2026-03-27T21:16:30 GMT+06:00" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:30 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:16:30 GMT+06:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:30 GMT+06:00" name="setUp" finished-at="2026-03-27T21:16:45 GMT+06:00" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:45 GMT+06:00" name="testInvalidLogin" description="Login failure with invalid credentials" data-provider="invalidLoginData" finished-at="2026-03-27T21:16:45 GMT+06:00" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:45 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:16:45 GMT+06:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:45 GMT+06:00" name="setUp" finished-at="2026-03-27T21:16:56 GMT+06:00" duration-ms="11176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:56 GMT+06:00" name="testInvalidLogin" description="Login failure with invalid credentials" data-provider="invalidLoginData" finished-at="2026-03-27T21:16:56 GMT+06:00" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR 1=1 --]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:56 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:16:57 GMT+06:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:16:57 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:01 GMT+06:00" duration-ms="4806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUser()[pri:3, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:17:01 GMT+06:00" name="testLockedOutUser" description="Locked-out user behaviour" finished-at="2026-03-27T21:17:02 GMT+06:00" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:17:02 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:02 GMT+06:00" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:17:02 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:05 GMT+06:00" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSessionPersistenceAndLogout()[pri:4, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:17:05 GMT+06:00" name="testSessionPersistenceAndLogout" description="Session persistence and logout behaviour" finished-at="2026-03-27T21:17:08 GMT+06:00" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSessionPersistenceAndLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.AuthTest@6079cf5]" started-at="2026-03-27T21:17:08 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:08 GMT+06:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwrdassessment.tests.AuthTest -->
+      <class name="com.softwrdassessment.tests.PerformanceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:08 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:10 GMT+06:00" duration-ms="2587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPerformanceGlitchUserLogin()[pri:1, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:10 GMT+06:00" name="testPerformanceGlitchUserLogin" description="performance_glitch_user login completes successfully despite delay" finished-at="2026-03-27T21:17:15 GMT+06:00" duration-ms="5257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerformanceGlitchUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:15 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:16 GMT+06:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:16 GMT+06:00" name="setUp" finished-at="2026-03-27T21:17:21 GMT+06:00" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorUserActions()[pri:2, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:21 GMT+06:00" name="testErrorUserActions" description="error_user encounters correct error states during checkout validation" finished-at="2026-03-27T21:17:42 GMT+06:00" duration-ms="21183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorUserActions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.PerformanceTest@1e6308a9]" started-at="2026-03-27T21:17:42 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:17:52 GMT+06:00" duration-ms="9923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwrdassessment.tests.PerformanceTest -->
+      <class name="com.softwrdassessment.tests.CatalogTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:30 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:33 GMT+06:00" duration-ms="3890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:33 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:14:34 GMT+06:00" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testProductListingLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testProductListingLoads()[pri:1, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:34 GMT+06:00" name="testProductListingLoads" description="Product listing loads correctly" finished-at="2026-03-27T21:14:34 GMT+06:00" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductListingLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:34 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:34 GMT+06:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:34 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:46 GMT+06:00" duration-ms="12519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:46 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:14:47 GMT+06:00" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testSortNameAZ()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testSortNameAZ()[pri:2, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:47 GMT+06:00" name="testSortNameAZ" description="Sorting by Name A -&gt; Z" finished-at="2026-03-27T21:14:47 GMT+06:00" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortNameAZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:47 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:47 GMT+06:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:47 GMT+06:00" name="setUp" finished-at="2026-03-27T21:14:53 GMT+06:00" duration-ms="6051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:53 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:14:53 GMT+06:00" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testSortNameZA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testSortNameZA()[pri:3, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:53 GMT+06:00" name="testSortNameZA" description="Sorting by Name Z -&gt; A" finished-at="2026-03-27T21:14:53 GMT+06:00" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortNameZA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:53 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:14:53 GMT+06:00" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:14:53 GMT+06:00" name="setUp" finished-at="2026-03-27T21:15:01 GMT+06:00" duration-ms="8008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:01 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:15:01 GMT+06:00" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testSortPriceLowToHigh()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testSortPriceLowToHigh()[pri:4, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:01 GMT+06:00" name="testSortPriceLowToHigh" description="Sorting by Price Low -&gt; High" finished-at="2026-03-27T21:15:02 GMT+06:00" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:02 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:15:02 GMT+06:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:02 GMT+06:00" name="setUp" finished-at="2026-03-27T21:15:09 GMT+06:00" duration-ms="7379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:09 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:15:09 GMT+06:00" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testSortPriceHighToLow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testSortPriceHighToLow()[pri:5, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:09 GMT+06:00" name="testSortPriceHighToLow" description="Sorting by Price High -&gt; Low" finished-at="2026-03-27T21:15:09 GMT+06:00" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:09 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:15:09 GMT+06:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:09 GMT+06:00" name="setUp" finished-at="2026-03-27T21:15:30 GMT+06:00" duration-ms="20829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser(java.lang.reflect.Method)[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:30 GMT+06:00" name="loginStandardUser" finished-at="2026-03-27T21:15:30 GMT+06:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.softwrdassessment.tests.CatalogTest.testProblemUserImages()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testProblemUserImages()[pri:6, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:30 GMT+06:00" name="testProblemUserImages" description="Problem user visual regression - mismatched images" finished-at="2026-03-27T21:15:31 GMT+06:00" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProblemUserImages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.softwrdassessment.tests.CatalogTest@21fff664]" started-at="2026-03-27T21:15:31 GMT+06:00" name="tearDown" finished-at="2026-03-27T21:15:41 GMT+06:00" duration-ms="10098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwrdassessment.tests.CatalogTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- SauceDemo Test Suite -->
+</testng-results>

@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  All Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 27 21:13:46 GMT+06:00 2026</td>
+</tr>
+<tr><td>Total time:</td><td>258 seconds (258342 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.softwrdassessment.tests.PerformanceTest.testErrorUserActions()'><b>testErrorUserActions</b><br>Test class: com.softwrdassessment.tests.PerformanceTest<br>Test method: error_user encounters correct error states during checkout validation</td>
+<td></td>
+<td>21</td>
+<td>com.softwrdassessment.tests.PerformanceTest@1e6308a9</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Login failure with invalid credentials<br>Parameters: standard_user, , Password is required</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CartTest.testAddMultipleItems()'><b>testAddMultipleItems</b><br>Test class: com.softwrdassessment.tests.CartTest<br>Test method: Add multiple items and verify all appear in cart</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CartTest@30cecdca</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CheckoutTest.testOrderSummaryMath()'><b>testOrderSummaryMath</b><br>Test class: com.softwrdassessment.tests.CheckoutTest<br>Test method: Verify order summary is mathematically correct</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CheckoutTest@7004e3d</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testSortNameAZ()'><b>testSortNameAZ</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Sorting by Name A -> Z</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CartTest.testCartPersistence()'><b>testCartPersistence</b><br>Test class: com.softwrdassessment.tests.CartTest<br>Test method: Cart persists across page navigation</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CartTest@30cecdca</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Login failure with invalid credentials<br>Parameters: invalid_user, wrong_password, Username and password do not match</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CartTest.testAddSingleItem()'><b>testAddSingleItem</b><br>Test class: com.softwrdassessment.tests.CartTest<br>Test method: Add a single item and verify cart badge updates</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CartTest@30cecdca</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testSessionPersistenceAndLogout()'><b>testSessionPersistenceAndLogout</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Session persistence and logout behaviour</td>
+<td></td>
+<td>2</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.PerformanceTest.testPerformanceGlitchUserLogin()'><b>testPerformanceGlitchUserLogin</b><br>Test class: com.softwrdassessment.tests.PerformanceTest<br>Test method: performance_glitch_user login completes successfully despite delay</td>
+<td></td>
+<td>5</td>
+<td>com.softwrdassessment.tests.PerformanceTest@1e6308a9</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CartTest.testRemoveItem()'><b>testRemoveItem</b><br>Test class: com.softwrdassessment.tests.CartTest<br>Test method: Remove an item from the cart and verify cart state</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CartTest@30cecdca</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testSortPriceLowToHigh()'><b>testSortPriceLowToHigh</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Sorting by Price Low -> High</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testSortPriceHighToLow()'><b>testSortPriceHighToLow</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Sorting by Price High -> Low</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testProblemUserImages()'><b>testProblemUserImages</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Problem user visual regression - mismatched images</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Login failure with invalid credentials<br>Parameters: , secret_sauce, Username is required</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CheckoutTest.testCheckoutBlockedMissingFields()'><b>testCheckoutBlockedMissingFields</b><br>Test class: com.softwrdassessment.tests.CheckoutTest<br>Test method: Checkout blocked when required fields are missing<br>Parameters: , Doe, 12345, Error: First Name is required</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CheckoutTest@7004e3d</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testLockedOutUser()'><b>testLockedOutUser</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Locked-out user behaviour</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CheckoutTest.testCheckoutBlockedMissingFields()'><b>testCheckoutBlockedMissingFields</b><br>Test class: com.softwrdassessment.tests.CheckoutTest<br>Test method: Checkout blocked when required fields are missing<br>Parameters: John, Doe, , Error: Postal Code is required</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CheckoutTest@7004e3d</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CheckoutTest.testCheckoutBlockedMissingFields()'><b>testCheckoutBlockedMissingFields</b><br>Test class: com.softwrdassessment.tests.CheckoutTest<br>Test method: Checkout blocked when required fields are missing<br>Parameters: John, , 12345, Error: Last Name is required</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CheckoutTest@7004e3d</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testProductListingLoads()'><b>testProductListingLoads</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Product listing loads correctly</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Login failure with invalid credentials<br>Parameters: ' OR 1=1 --, password, Username and password do not match</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CheckoutTest.testFullPurchaseFlow()'><b>testFullPurchaseFlow</b><br>Test class: com.softwrdassessment.tests.CheckoutTest<br>Test method: Complete a full purchase with valid details and verify confirmation screen content</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CheckoutTest@7004e3d</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.AuthTest.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.softwrdassessment.tests.AuthTest<br>Test method: Successful login with valid credentials</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.AuthTest@6079cf5</td></tr>
+<tr>
+<td title='com.softwrdassessment.tests.CatalogTest.testSortNameZA()'><b>testSortNameZA</b><br>Test class: com.softwrdassessment.tests.CatalogTest<br>Test method: Sorting by Name Z -> A</td>
+<td></td>
+<td>0</td>
+<td>com.softwrdassessment.tests.CatalogTest@21fff664</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+com/softwrdassessment/tests/CatalogTest.class
+com/softwrdassessment/tests/CartTest.class
+com/softwrdassessment/tests/CheckoutTest.class
+com/softwrdassessment/tests/PerformanceTest.class
+com/softwrdassessment/base/BaseTest.class
+com/softwrdassessment/listeners/TestListener.class
+com/softwrdassessment/tests/AuthTest.class

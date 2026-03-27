@@ -1,0 +1,37 @@
+[
+  {
+    "userType": "standard",
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  {
+    "userType": "locked_out",
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  {
+    "userType": "problem",
+    "username": "problem_user",
+    "password": "secret_sauce"
+  },
+  {
+    "userType": "performance",
+    "username": "performance_glitch_user",
+    "password": "secret_sauce"
+  },
+  {
+    "userType": "error",
+    "username": "error_user",
+    "password": "secret_sauce"
+  },
+  {
+    "userType": "invalid",
+    "username": "invalid_user",
+    "password": "wrong_password"
+  },
+  {
+    "userType": "sql_injection",
+    "username": "' OR 1=1 --",
+    "password": "password"
+  }
+]

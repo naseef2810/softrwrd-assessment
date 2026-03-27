@@ -79,9 +79,16 @@ public class InventoryPage extends BasePage {
     }
 
     public LoginPage logout() {
-        click(menuButton);
-        WebElement element = waitForVisible(logoutLink);
-        ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        try {
+            click(menuButton);
+            WebElement element = waitForVisible(logoutLink);
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        } catch (org.openqa.selenium.TimeoutException e) {
+            // Retry the click if the first attempt failed due to React hydration delays
+            click(menuButton);
+            WebElement element = waitForVisible(logoutLink);
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        }
         return new LoginPage(driver);
     }
 }

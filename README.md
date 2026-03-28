@@ -41,7 +41,7 @@ src/
 ## 3. Setup & Run Instructions
 
 ### Prerequisites
-- Java JDK 11 or higher
+- Java JDK 21
 - Maven 3.8+
 - Google Chrome installed
 

@@ -4,7 +4,7 @@
 
 ## 1. Framework Choice & Rationale
 
-- **Language:** Java 11+
+- **Language:** Java 21
   - *Rationale:* Java offers strong typing, a mature ecosystem, and is widely the industry standard for enterprise test automation.
 - **UI Automation:** Selenium WebDriver 4.x
   - *Rationale:* Robust, reliable, and deeply integrated into Java. Version 4 provides enhanced mechanisms like native tools and better modern browser support.
